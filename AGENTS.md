@@ -24,7 +24,7 @@ src/LilyBlazorHeadless/
     {Name}.razor       # Markup only
     {Name}.razor.cs    # Code-behind (partial class)
 tests/LilyBlazorHeadless.Tests/
-  Components/          # 236 test files
+  Components/          # 284 test files
     {Name}Tests.cs     # bUnit tests
 ```
 
@@ -119,7 +119,7 @@ Every component has at minimum:
 ## Svelte Source Reference
 
 The original Svelte components are at:
-`/Users/jph/git/lilydesignsystem/lily-plus-svelte/components/`
+`/Users/jph/git/lilydesignsystem/lily-svelte-headless/components/`
 
 When modifying a component, cross-reference the `.svelte` source for the intended semantics, ARIA attributes, and keyboard behavior.
 

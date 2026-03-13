@@ -2,11 +2,11 @@
 
 ## Goal
 
-Implement all headless components using Blazor .NET 9 + C#. Every component must be headless (zero CSS), fully accessible (WCAG 2.2 AAA), and have comprehensive tests.
+Implement all headless components using Blazor .NET 10 + C#. Every component must be headless (zero CSS), fully accessible (WCAG 2.2 AAA), and have comprehensive tests.
 
 ## Technology
 
-- Framework: Blazor .NET 9 + C#
+- Framework: Blazor .NET 10 + C#
 - Test framework: bUnit
 - Test command: `dotnet test`
 - Component file extension: .razor
@@ -14,7 +14,7 @@ Implement all headless components using Blazor .NET 9 + C#. Every component must
 
 ## Approach
 
-1. Set up project infrastructure (package.json, config, test setup)
+1. Set up project infrastructure (.csproj, config, test setup)
 2. Implement components in priority order:
    a. Static wrappers (badge, banner, card, panel, alert, etc.)
    b. Form inputs (text-input, email-input, checkbox-input, etc.)
