@@ -90,11 +90,11 @@ public partial class Button : ComponentBase
 
 Components like TabBar, MenuBar, and TreeNav use `IJSRuntime` to manage focus across child elements with arrow keys, Home, and End.
 
-## All Components (284)
+## All Components (288)
 
 ### Navigation
 
-AccordionNav, AccordionList, AccordionListItem, ActionLink, BackLink, BreadcrumbNav, BreadcrumbList, BreadcrumbListItem, ContentsNav, ContentsList, ContentsListItem, NavigationMenu, PaginationNav, PaginationList, PaginationListItem, SkipLink, TabBar, TabBarButton, TaskBar, TaskBarButton, TreeNav, TreeList, TreeListItem
+AccordionNav, AccordionList, AccordionListItem, ActionLink, BackLink, BreadcrumbNav, BreadcrumbList, BreadcrumbListItem, ChatNav, ChatList, ChatListItem, ChatMessage, ContentsNav, ContentsList, ContentsListItem, NavigationMenu, PaginationNav, PaginationList, PaginationListItem, SkipLink, TabBar, TabBarButton, TaskBar, TaskBarButton, TreeNav, TreeList, TreeListItem
 
 ### Layout
 
@@ -126,7 +126,7 @@ AngleSliderRangeInput, ColorPicker, ColorPickerButton, Dial, EmojiCharacterPicke
 
 ### Content & Typography
 
-CallToAction, Caption, CareCard, Carousel, Character, CharacterCounter, CheckList, CheckListItem, Collapsible, Command, Details, DoList, DoListItem, DontList, DontListItem, Editable, EditableForm, EmailLink, Emoji, Expander, Figure, Flair, Footnote, Image, InsetText, Kbd, Label, MedicalRecordRedBox, Meter, PostalCodeView, QrCode, ReviewDate, Sonner, Sparkline, Tag, TagGroup, TaskList, TaskListItem, TelLink, TimelineList, TimelineListItem, Timer, Tour, TourList, TourListItem, UnitedKingdomNationalHealthServiceNumberInput, UnitedKingdomNationalHealthServiceNumberView, UnitedStatesSocialSecurityNumberInput, UnitedStatesSocialSecurityNumberView, MeasurementInstanceView, MeasurementSystemView, MeasurementUnitView
+CallToAction, Caption, CareCard, Carousel, Character, CharacterCounter, ChatNav, ChatList, ChatListItem, ChatMessage, CheckList, CheckListItem, Collapsible, Command, Details, DoList, DoListItem, DontList, DontListItem, Editable, EditableForm, EmailLink, Emoji, Expander, Figure, Flair, Footnote, Image, InsetText, Kbd, Label, MedicalRecordRedBox, Meter, PostalCodeView, QrCode, ReviewDate, Sonner, Sparkline, Tag, TagGroup, TaskList, TaskListItem, TelLink, TimelineList, TimelineListItem, Timer, Tour, TourList, TourListItem, UnitedKingdomNationalHealthServiceNumberInput, UnitedKingdomNationalHealthServiceNumberView, UnitedStatesSocialSecurityNumberInput, UnitedStatesSocialSecurityNumberView, MeasurementInstanceView, MeasurementSystemView, MeasurementUnitView
 
 ### Structure
 
