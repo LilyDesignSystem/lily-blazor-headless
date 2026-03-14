@@ -90,7 +90,7 @@ public partial class Button : ComponentBase
 
 Components like TabBar, MenuBar, and TreeNav use `IJSRuntime` to manage focus across child elements with arrow keys, Home, and End.
 
-## All Components (303)
+## All Components (304)
 
 ### Navigation
 
@@ -126,7 +126,7 @@ AngleSliderRangeInput, ColorPicker, Diff, ColorPickerButton, Dial, EmojiCharacte
 
 ### Content & Typography
 
-CallToAction, Caption, CareCard, Citation, Tile, Carousel, Character, CharacterCounter, ChatNav, ChatList, ChatListItem, ChatMessage, CheckList, CheckListItem, Collapsible, Command, Details, DoList, DoListItem, DontList, DontListItem, Editable, EditableForm, EmailLink, Emoji, Expander, Figure, Flair, Footnote, Image, InsetText, Kbd, Label, MedicalRecordRedBox, Meter, MockupBrowser, MockupLaptop, MockupPhone, MockupTabletLandscape, MockupTabletPortrait, MockupShell, MockupWatch, MockupWindow, PostalCodeView, QrCode, ReviewDate, Sonner, Sparkline, Tag, TagGroup, TaskList, TaskListItem, TelLink, TimelineList, TimelineListItem, Timer, Tour, TourList, TourListItem, UnitedKingdomNationalHealthServiceNumberInput, UnitedKingdomNationalHealthServiceNumberView, UnitedStatesSocialSecurityNumberInput, UnitedStatesSocialSecurityNumberView, MeasurementInstanceView, MeasurementSystemView, MeasurementUnitView
+CallToAction, Caption, CareCard, Citation, DigitalObjectIdentifierLink, Tile, Carousel, Character, CharacterCounter, ChatNav, ChatList, ChatListItem, ChatMessage, CheckList, CheckListItem, Collapsible, Command, Details, DoList, DoListItem, DontList, DontListItem, Editable, EditableForm, EmailLink, Emoji, Expander, Figure, Flair, Footnote, Image, InsetText, Kbd, Label, MedicalRecordRedBox, Meter, MockupBrowser, MockupLaptop, MockupPhone, MockupTabletLandscape, MockupTabletPortrait, MockupShell, MockupWatch, MockupWindow, PostalCodeView, QrCode, ReviewDate, Sonner, Sparkline, Tag, TagGroup, TaskList, TaskListItem, TelLink, TimelineList, TimelineListItem, Timer, Tour, TourList, TourListItem, UnitedKingdomNationalHealthServiceNumberInput, UnitedKingdomNationalHealthServiceNumberView, UnitedStatesSocialSecurityNumberInput, UnitedStatesSocialSecurityNumberView, MeasurementInstanceView, MeasurementSystemView, MeasurementUnitView
 
 ### Structure
 
