@@ -90,7 +90,7 @@ public partial class Button : ComponentBase
 
 Components like TabBar, MenuBar, and TreeNav use `IJSRuntime` to manage focus across child elements with arrow keys, Home, and End.
 
-## All Components (306)
+## All Components (307)
 
 ### Navigation
 
@@ -130,7 +130,7 @@ CallToAction, Caption, CareCard, Citation, DigitalObjectIdentifierLink, Tile, Ca
 
 ### Structure
 
-AiLabel, Avatar, AvatarImage, AvatarText, Organization, Person, BeachBall, Footer, HamburgerMenu, Header, Icon, Menu, MenuBar, MenuBarButton, MenuItem, SegmentGroup, SegmentGroupItem, SignaturePad, ToolBar, ToolBarButton, TreeMenu, FileManager, FileUpload
+AiLabel, Avatar, AvatarImage, AvatarText, Organization, Person, Place, BeachBall, Footer, HamburgerMenu, Header, Icon, Menu, MenuBar, MenuBarButton, MenuItem, SegmentGroup, SegmentGroupItem, SignaturePad, ToolBar, ToolBarButton, TreeMenu, FileManager, FileUpload
 
 ### Vital Signs
 
