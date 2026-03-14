@@ -1,14 +1,12 @@
 # Lily Design System - Blazor Headless
 
-@AGENTS/lily.md
-
-## Project Overview
-
 This is a Blazor Razor Class Library containing many headless UI components.
 
-All components are unstyled (no CSS) and focus on semantic HTML, ARIA accessibility, and keyboard interaction.
-
-Based on https://github.com/LilyDesignSystem/lily
+@AGENTS/lily.md
+@AGENTS/components.md
+@AGENTS/accessibility.md
+@AGENTS/internationalization.md
+@AGENTS/headless.md
 
 ## Tech Stack
 
@@ -77,14 +75,7 @@ Components needing DOM queries for focus management (TabBar, MenuBar, TreeNav, e
 private ElementReference _elementRef;
 ```
 
-### Headless rules
-
-- No CSS classes beyond the base class name + consumer CssClass
-- No inline styles
-- No colors, sizes, spacing, or visual treatment
-- Semantic HTML elements preferred over divs
-- ARIA attributes for accessibility
-- All user-facing text comes through parameters (i18n-ready)
+@AGENTS/headless.md
 
 ## Build & Test Commands
 
