@@ -1,6 +1,6 @@
 # Component Catalog
 
-This library contains 293 headless Blazor components. Each component is unstyled (no CSS)
+This library contains 294 headless Blazor components. Each component is unstyled (no CSS)
 and focuses on semantic HTML, ARIA accessibility, and keyboard interaction.
 
 ## Components
