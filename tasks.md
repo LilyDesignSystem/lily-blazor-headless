@@ -26,7 +26,7 @@
 
 ## In Progress
 
-- [ ] Implement remaining 13 components to reach canonical 300
+- [ ] Implement remaining 13 components to reach canonical 301
 - [ ] Cross-check all components vs canonical list in AGENTS.md
 
 ## Backlog

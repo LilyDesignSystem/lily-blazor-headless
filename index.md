@@ -90,7 +90,7 @@ public partial class Button : ComponentBase
 
 Components like TabBar, MenuBar, and TreeNav use `IJSRuntime` to manage focus across child elements with arrow keys, Home, and End.
 
-## All Components (300)
+## All Components (301)
 
 ### Navigation
 
@@ -110,7 +110,7 @@ Button, ClipboardCopyButton, SliderButton, TimerButton, ToggleButton, ToggleGrou
 
 ### Feedback & Status
 
-Alert, AlertDialog, Badge, Banner, Loading, ErrorMessage, ErrorSummary, Hint, InformationCallout, Notification, Progress, ProgressCircle, ProgressSpinner, Skeleton, Toast, WarningCallout
+Alert, AlertDialog, Badge, Banner, Loading, SuperBanner, ErrorMessage, ErrorSummary, Hint, InformationCallout, Notification, Progress, ProgressCircle, ProgressSpinner, Skeleton, Toast, WarningCallout
 
 ### Overlays & Popups
 
