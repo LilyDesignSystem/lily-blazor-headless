@@ -22,7 +22,7 @@ src/LilyBlazorHeadless/
     {Name}.razor       # Markup only
     {Name}.razor.cs    # Code-behind (partial class)
 tests/LilyBlazorHeadless.Tests/
-  Components/          # 295 test files
+  Components/          # 296 test files
     {Name}Tests.cs     # bUnit tests
 ```
 
