@@ -15,7 +15,7 @@
       "Bash(python3 fix_errors.py 2>&1)",
       "Bash(cd /Users/jph/git/lilydesignsystem/lily-blazor-headless/src/LilyBlazorHeadless/Components && for f in TabBar.razor TaskBar.razor MenuBar.razor; do sed -i '' 's/BarRef/_elementRef/g' \"$f\" && echo \"Fixed $f\"; done)",
       "Bash(cd /Users/jph/git/lilydesignsystem/lily-blazor-headless && dotnet build 2>&1 | grep \"error \" | sed 's/\\(.*//;s/.*Components\\\\///' | sort -u)",
-      "Bash(cd /Users/jph/git/lilydesignsystem/lily-blazor-headless/src/LilyBlazorHeadless/Components && sed -i '' 's/TreeRef/_elementRef/g' TreeNavList.razor && echo \"Fixed TreeNavList\")",
+      "Bash(cd /Users/jph/git/lilydesignsystem/lily-blazor-headless/src/LilyBlazorHeadless/Components && sed -i '' 's/TreeRef/_elementRef/g' TreeList.razor && echo \"Fixed TreeList\")",
       "Bash(cd /Users/jph/git/lilydesignsystem/lily-blazor-headless && dotnet build 2>&1 | grep \"error \" | wc -l)",
       "Bash(dotnet build src/LilyBlazorHeadless/ 2>&1 | tail -5)",
       "Bash(cd /Users/jph/git/lilydesignsystem/lily-blazor-headless/tests/LilyBlazorHeadless.Tests/Components && find . -name \"*.cs\" -exec sed -i '' 's/RenderComponent</Render</g' {} + && echo \"Fixed all test files\")",

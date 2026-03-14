@@ -1,6 +1,7 @@
-@* BreadcrumbNavListItem.razor *@
-<li
+@* AccordionListItem.razor *@
+<details
     class="@CssClasses"
+    open="@Open"
     @attributes="AdditionalAttributes">
     @ChildContent
-</li>
+</details>

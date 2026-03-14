@@ -8,8 +8,8 @@ and focuses on semantic HTML, ARIA accessibility, and keyboard interaction.
 ### A
 
 - [AccordionNav](components/AccordionNav.md) — `<AccordionNav>` (`accordion-nav`)
-- [AccordionNavList](components/AccordionNavList.md) — `<AccordionNavList>` (`accordion-nav-list`)
-- [AccordionNavListItem](components/AccordionNavListItem.md) — `<AccordionNavListItem>` (`accordion-nav-list-item`)
+- [AccordionList](components/AccordionList.md) — `<AccordionList>` (`accordion-list`)
+- [AccordionListItem](components/AccordionListItem.md) — `<AccordionListItem>` (`accordion-list-item`)
 - [ActionLink](components/ActionLink.md) — `<ActionLink>` (`action-link`)
 - [Alert](components/Alert.md) — `<Alert>` (`alert`)
 - [AlertDialog](components/AlertDialog.md) — `<AlertDialog>` (`alert-dialog`)
@@ -25,8 +25,8 @@ and focuses on semantic HTML, ARIA accessibility, and keyboard interaction.
 - [Banner](components/Banner.md) — `<Banner>` (`banner`)
 - [BeachBall](components/BeachBall.md) — `<BeachBall>` (`beach-ball`)
 - [BreadcrumbNav](components/BreadcrumbNav.md) — `<BreadcrumbNav>` (`breadcrumb-nav`)
-- [BreadcrumbNavList](components/BreadcrumbNavList.md) — `<BreadcrumbNavList>` (`breadcrumb-nav-list`)
-- [BreadcrumbNavListItem](components/BreadcrumbNavListItem.md) — `<BreadcrumbNavListItem>` (`breadcrumb-nav-list-item`)
+- [BreadcrumbList](components/BreadcrumbList.md) — `<BreadcrumbList>` (`breadcrumb-list`)
+- [BreadcrumbListItem](components/BreadcrumbListItem.md) — `<BreadcrumbListItem>` (`breadcrumb-list-item`)
 - [Button](components/Button.md) — `<Button>` (`button`)
 - [ButtonInput](components/ButtonInput.md) — `<ButtonInput>` (`button-input`)
 ### C
@@ -271,7 +271,7 @@ and focuses on semantic HTML, ARIA accessibility, and keyboard interaction.
 - [TourList](components/TourList.md) — `<TourList>` (`tour-list`)
 - [TourListItem](components/TourListItem.md) — `<TourListItem>` (`tour-list-item`)
 - [TreeNav](components/TreeNav.md) — `<TreeNav>` (`tree-nav`)
-- [TreeNavList](components/TreeNavList.md) — `<TreeNavList>` (`tree-nav-list`)
+- [TreeList](components/TreeList.md) — `<TreeList>` (`tree-list`)
 ### U
 
 - [UnitedKingdomNationalHealthServiceNumberInput](components/UnitedKingdomNationalHealthServiceNumberInput.md) — `<UnitedKingdomNationalHealthServiceNumberInput>` (`united-kingdom-national-health-service-number-input`)

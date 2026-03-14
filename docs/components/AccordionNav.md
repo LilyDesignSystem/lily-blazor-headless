@@ -2,7 +2,7 @@
 
 A navigation container for an accordion. Renders a `<nav>` element with an accessible label, serving as the outermost wrapper for collapsible accordion content. Commonly used for FAQs, settings panels, filter groups, and mobile navigation menus.
 
-Compound component: use with AccordionNavList and AccordionNavListItem.
+Compound component: use with AccordionList and AccordionListItem.
 
 ## Parameters
 
@@ -17,12 +17,12 @@ Compound component: use with AccordionNavList and AccordionNavListItem.
 
 ```razor
 <AccordionNav label="Frequently Asked Questions">
-  <AccordionNavList>
-    <AccordionNavListItem>
+  <AccordionList>
+    <AccordionListItem>
       <summary>What is this?</summary>
       <p>A design system.</p>
-    </AccordionNavListItem>
-  </AccordionNavList>
+    </AccordionListItem>
+  </AccordionList>
 </AccordionNav>
 ```
 

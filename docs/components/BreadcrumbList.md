@@ -1,6 +1,6 @@
-# BreadcrumbNavList
+# BreadcrumbList
 
-A breadcrumb list is an ordered list that contains BreadcrumbNavListItem children, representing the hierarchical trail in a breadcrumb navigation. It renders a semantic `<ol>` element to convey the ordered relationship of pages in the site hierarchy.
+A breadcrumb list is an ordered list that contains BreadcrumbListItem children, representing the hierarchical trail in a breadcrumb navigation. It renders a semantic `<ol>` element to convey the ordered relationship of pages in the site hierarchy.
 
 Must be placed inside a BreadcrumbNav container, which provides the `<nav>` navigation landmark.
 
@@ -8,9 +8,9 @@ Must be placed inside a BreadcrumbNav container, which provides the `<nav>` navi
 
 - Renders a semantic `<ol>` element for ordered breadcrumb entries
 - Implicit list role allows screen readers to announce item count
-- Content is provided through BreadcrumbNavListItem children
+- Content is provided through BreadcrumbListItem children
 - Separator characters (e.g. "/" or ">") between items are the consumer's responsibility
-- Compound component: used inside BreadcrumbNav, contains BreadcrumbNavListItem children
+- Compound component: used inside BreadcrumbNav, contains BreadcrumbListItem children
 - Spreads `AdditionalAttributes` for consumer customization
 
 ## Parameters
@@ -25,18 +25,18 @@ Must be placed inside a BreadcrumbNav container, which provides the `<nav>` navi
 
 ```razor
 <BreadcrumbNav label="Breadcrumb">
-  <BreadcrumbNavList>
-    <BreadcrumbNavListItem><a href="/">Home</a></BreadcrumbNavListItem>
-    <BreadcrumbNavListItem><a href="/products">Products</a></BreadcrumbNavListItem>
-    <BreadcrumbNavListItem current>Widget</BreadcrumbNavListItem>
-  </BreadcrumbNavList>
+  <BreadcrumbList>
+    <BreadcrumbListItem><a href="/">Home</a></BreadcrumbListItem>
+    <BreadcrumbListItem><a href="/products">Products</a></BreadcrumbListItem>
+    <BreadcrumbListItem current>Widget</BreadcrumbListItem>
+  </BreadcrumbList>
 </BreadcrumbNav>
 ```
 
 
 ## Keyboard Interactions
 
-None -- passive container. Keyboard interactions are handled by links within BreadcrumbNavListItem children.
+None -- passive container. Keyboard interactions are handled by links within BreadcrumbListItem children.
 
 ## ARIA Attributes
 

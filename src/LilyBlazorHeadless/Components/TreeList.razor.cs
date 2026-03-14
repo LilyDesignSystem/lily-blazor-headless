@@ -5,19 +5,19 @@ using Microsoft.JSInterop;
 namespace LilyBlazorHeadless.Components;
 
 /// <summary>
-/// TreeNavList is a headless hierarchical list component that uses the ARIA `tree` role with full
+/// TreeList is a headless hierarchical list component that uses the ARIA `tree` role with full
 /// keyboard navigation. It provides an accessible container for displaying nested or flat tree
 /// structures such as file browsers, organizational charts, or navigation menus.
 /// </summary>
 /// <example>
 /// <code>
-/// &lt;TreeNavList label="File browser"&gt;
+/// &lt;TreeList label="File browser"&gt;
 ///   &lt;li role="treeitem" tabindex="0"&gt;Documents&lt;/li&gt;
 ///   &lt;li role="treeitem" tabindex="-1"&gt;Photos&lt;/li&gt;
-/// &lt;/TreeNavList&gt;
+/// &lt;/TreeList&gt;
 /// </code>
 /// </example>
-public partial class TreeNavList : ComponentBase
+public partial class TreeList : ComponentBase
 {
     [Inject] private IJSRuntime JSRuntime { get; set; } = default!;
 
@@ -29,7 +29,7 @@ public partial class TreeNavList : ComponentBase
 
     private ElementReference _elementRef;
 
-    private string CssClasses => string.IsNullOrEmpty(CssClass) ? "tree-nav-list" : $"tree-nav-list {CssClass}";
+    private string CssClasses => string.IsNullOrEmpty(CssClass) ? "tree-list" : $"tree-list {CssClass}";
 
     private async Task HandleKeyDown(KeyboardEventArgs e)
     {

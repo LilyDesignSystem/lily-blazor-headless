@@ -4,12 +4,12 @@ using LilyBlazorHeadless.Components;
 
 namespace LilyBlazorHeadless.Tests.Components;
 
-public class BreadcrumbNavListTests : TestContext
+public class BreadcrumbListTests : TestContext
 {
     [Fact]
     public void RendersAsOl()
     {
-        var cut = RenderComponent<BreadcrumbNavList>(p => p
+        var cut = RenderComponent<BreadcrumbList>(p => p
             .AddChildContent("Test content"));
         var element = cut.Find("ol");
         Assert.NotNull(element);
@@ -18,16 +18,16 @@ public class BreadcrumbNavListTests : TestContext
     [Fact]
     public void HasBaseClass()
     {
-        var cut = RenderComponent<BreadcrumbNavList>(p => p
+        var cut = RenderComponent<BreadcrumbList>(p => p
             .AddChildContent("Test content"));
         var element = cut.Find("ol");
-        Assert.Contains("breadcrumb-nav-list", element.GetAttribute("class"));
+        Assert.Contains("breadcrumb-list", element.GetAttribute("class"));
     }
 
     [Fact]
     public void RendersChildContent()
     {
-        var cut = RenderComponent<BreadcrumbNavList>(p => p
+        var cut = RenderComponent<BreadcrumbList>(p => p
             .AddChildContent("Hello child"));
         Assert.Contains("Hello child", cut.Markup);
     }
@@ -35,19 +35,19 @@ public class BreadcrumbNavListTests : TestContext
     [Fact]
     public void MergesCssClass()
     {
-        var cut = RenderComponent<BreadcrumbNavList>(p => p
+        var cut = RenderComponent<BreadcrumbList>(p => p
             .AddChildContent("Test content")
             .Add(c => c.CssClass, "custom-class"));
         var element = cut.Find("ol");
         var classes = element.GetAttribute("class");
-        Assert.Contains("breadcrumb-nav-list", classes);
+        Assert.Contains("breadcrumb-list", classes);
         Assert.Contains("custom-class", classes);
     }
 
     [Fact]
     public void PassesThroughAdditionalAttributes()
     {
-        var cut = RenderComponent<BreadcrumbNavList>(p => p
+        var cut = RenderComponent<BreadcrumbList>(p => p
             .AddChildContent("Test content")
             .Add(c => c.AdditionalAttributes, new Dictionary<string, object> { { "data-testid", "test-123" } }));
         var element = cut.Find("ol");

@@ -1,6 +1,6 @@
-# AccordionNavListItem
+# AccordionListItem
 
-A single expandable section within an AccordionNavList, using the native HTML `<details>` element for built-in disclosure behavior. The consumer provides a `<summary>` element and content as children.
+A single expandable section within an AccordionList, using the native HTML `<details>` element for built-in disclosure behavior. The consumer provides a `<summary>` element and content as children.
 
 The `open` prop is two-way bindable, allowing parent components to programmatically control and observe the expanded state.
 
@@ -17,18 +17,18 @@ The `open` prop is two-way bindable, allowing parent components to programmatica
 
 
 ```razor
-<AccordionNavListItem>
+<AccordionListItem>
   <summary>Question</summary>
   <p>Answer</p>
-</AccordionNavListItem>
+</AccordionListItem>
 ```
 
 
 ```razor
-<AccordionNavListItem @bind-Open="isOpen">
+<AccordionListItem @bind-Open="isOpen">
   <summary>Details</summary>
   <p>Expanded content here.</p>
-</AccordionNavListItem>
+</AccordionListItem>
 ```
 
 

@@ -10,12 +10,12 @@ namespace LilyBlazorHeadless.Components;
 /// <example>
 /// <code>
 /// &lt;AccordionNav label="Frequently Asked Questions"&gt;
-///   &lt;AccordionNavList&gt;
-///     &lt;AccordionNavListItem&gt;
+///   &lt;AccordionList&gt;
+///     &lt;AccordionListItem&gt;
 ///       &lt;summary&gt;What is this?&lt;/summary&gt;
 ///       &lt;p&gt;A design system.&lt;/p&gt;
-///     &lt;/AccordionNavListItem&gt;
-///   &lt;/AccordionNavList&gt;
+///     &lt;/AccordionListItem&gt;
+///   &lt;/AccordionList&gt;
 /// &lt;/AccordionNav&gt;
 /// </code>
 /// </example>
