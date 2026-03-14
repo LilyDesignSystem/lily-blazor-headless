@@ -90,7 +90,7 @@ public partial class Button : ComponentBase
 
 Components like TabBar, MenuBar, and TreeNav use `IJSRuntime` to manage focus across child elements with arrow keys, Home, and End.
 
-## All Components (292)
+## All Components (293)
 
 ### Navigation
 
@@ -122,7 +122,7 @@ CalendarRangePicker, CalendarTable, CalendarTableBody, CalendarTableCol, Calenda
 
 ### Ratings & Pickers
 
-AngleSliderRangeInput, ColorPicker, ColorPickerButton, Dial, EmojiCharacterPicker, FiveFaceRatingPicker, FiveFaceRatingPickerButton, FiveFaceRatingView, FiveStarRatingPicker, FiveStarRatingPickerButton, FiveStarRatingView, NetPromoterScorePicker, NetPromoterScorePickerButton, NetPromoterScoreView, RedAmberGreenPicker, RedAmberGreenPickerButton, RedAmberGreenView, RedOrangeYellowGreenBluePicker, RedOrangeYellowGreenBluePickerButton, RedOrangeYellowGreenBlueView, Slider, ThemePicker, ThemeSelect, ThemeSelectOption, ThemeView
+AngleSliderRangeInput, ColorPicker, Diff, ColorPickerButton, Dial, EmojiCharacterPicker, FiveFaceRatingPicker, FiveFaceRatingPickerButton, FiveFaceRatingView, FiveStarRatingPicker, FiveStarRatingPickerButton, FiveStarRatingView, NetPromoterScorePicker, NetPromoterScorePickerButton, NetPromoterScoreView, RedAmberGreenPicker, RedAmberGreenPickerButton, RedAmberGreenView, RedOrangeYellowGreenBluePicker, RedOrangeYellowGreenBluePickerButton, RedOrangeYellowGreenBlueView, Slider, ThemePicker, ThemeSelect, ThemeSelectOption, ThemeView
 
 ### Content & Typography
 
